@@ -1,0 +1,8 @@
+# dsh-three-modes bundle patch
+#
+# Inserts one row: the host half owns the per-session mode, prompt section,
+# tool mask, temperature override, and the `/mode` command; the client half
+# ships the segmented control. Nothing else in the composition is touched.
+- insert:
+    - id: three-modes
+      name: dsh-three-modes

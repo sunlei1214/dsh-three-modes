@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Three Modes",
+    "description": "Switch one session between discussion, adversarial review, and task execution: the first two are read-only, task mode restores every tool."
+  }
+}

@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+*.tgz
+
+# Test artifacts
+coverage/
+.nyc_output/
+
+# Local reference material — extracted packages and probe scripts, not part of the plugin
+_ref/
+
+# Leftover of a damaged file with unreadable permissions on this machine.
+# The directory entry cannot be deleted, only renamed in place, so match any name.
+orphan_broken/
+locale_broken/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Secrets — never commit these
+工作资料.txt
+*.key
+.env
+.env.*
